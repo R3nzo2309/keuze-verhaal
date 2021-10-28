@@ -232,10 +232,257 @@ elif answer == "B" or answer == "b":
                         if crazy == "A" or crazy == "a":
                             print("Je wordt teruggestuurd naar je eigen land ")
 
-                        elif crazy == "B" or "b":
+                        elif crazy == "B" or crazy == "b":
                             print("Je wordt teruggestuurd naar je eigen land ")
 
         elif vluchten == "B" or vluchten == "b":
             print("Je bent aangekomen in Bulgarije en daar krijg je te horen dat je niet kan blijven en dat je weer verder moet vluchten. ")
             print("A = je vlucht verder naar Romania. [17] ")
             print("B = je blijft illegaal in Bulgarije omdat je niet meer door kan vluchten. [9] ")
+            vluchteling = input("type A or B: ")
+
+            if vluchteling == "A" or vluchteling =="a":
+                print("Je bent aan het voor bereiden om naar Romania te gaan.") 
+                print("A = je koopt een vliegticket van je laatste beetje geld en hoopt dat je daar kan werken. [19]") 
+                print("B = je gaat te voet en bespaart geld. [18] ")
+                romania = input("type A or B: ")
+
+                if romania == "A" or romania == "a":
+                    print("Je bent aangekomen in Romania je mag er voorlopig blijven maar je wordt niet verder geholpen.")
+                    print("Tot het zeker is dat je mag blijven.") 
+                    print("A = je vindt illegaal werk om te doen [11]") 
+                    print("B = je besluit om verder te zoeken naar legaal werk [20] ")
+                    stay = input("type A or B: ")
+
+                    if stay == "A" or stay == "a":
+                        print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+                    
+                    elif stay == "B" or stay == "b":
+                        print("Je vindt na een lange tijd werk. Je hebt geld geleend van mensen waarmee je bevriend bent geworden.") 
+                        print("A = je betaalt de mensen terug [21] ")
+                        print("B = je betaalt de mensen niet terug en zoekt een andere plek dichter bij je werk om te wonen [11] ")
+                        werk = input("type A or B: ")
+
+                        if werk == "A" or werk == "a":
+                            print("Je bent langzaam je schulden aan het wegwerken en je vriendschap wordt beter.")
+                            print("Je krijgt de uitslag te horen of je mag blijven of niet. ")
+                            print("A = je bent blij dat je mag blijven [6] ")
+                            print("B = je word na een tijdje boos omdat je niet zeker weet of je familie ook naar Romania mag komen [11] ")
+                            schulden = input("type A or B: ")
+
+                            if schulden == "A" or schulden == "a":
+                                print("Na een paar maanden krijg je te horen dat je bent toegelaten en je wordt geholpen om je aan te passen zoals,")
+                                print("de taal leren in een speciale klas met meer vluchtelingen en er wordt geholpen om je aan een baan te krijgen.")
+                                print("er word ook geholpen om je familie te halen. ")
+
+                            elif schulden == "B" or schulden == "b":
+                                print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                        elif werk == "B" or werk == "b":
+                            print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                elif romania == "A" or romania == "a":
+                    print("Je bent bij een groot bos aangekomen waar je doorheen moet om in Romania te komen")
+                    print("A = je gaat erdoorheen [13] ")
+                    print("B = je besluit een vliegticket te kopen [19] ")
+                    trip = input("type A or B: ")
+
+                    if trip == "A" or trip == "B":
+                        print("Je zit nu een tijd zonder eten en hebt geen energie meer om door te gaan en verhongert. ")
+                    
+                    elif trip == "B" or trip == "b":
+                        print("Je bent aangekomen in Romania je mag er voorlopig blijven maar je wordt niet verder geholpen.")
+                        print("Tot het zeker is dat je mag blijven. ")
+                        print("A = je vindt illegaal werk om te doen [11]") 
+                        print("B = je besluit om verder te zoeken naar legaal werk [20] ")
+                        voorlopig = input("type A or B: ")
+
+                        if voorlopig == "A" or voorlopig == "a":
+                            print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                        elif voorlopig == "B" or voorlopig == "b":
+                            print("Je vindt na een lange tijd werk. Je hebt geld geleend van mensen waarmee je bevriend bent geworden.")
+                            print("A = je betaalt de mensen terug [21] ")
+                            print("B = je betaalt de mensen niet terug en zoekt een andere plek dichter bij je werk om te wonen [11] ")
+                            work = input("type A or B: ")
+
+                            if work == "A" or work == "a":
+                                print("Je bent langzaam je schulden aan het wegwerken en je vriendschap wordt beter.")
+                                print("Je krijgt de uitslag te horen of je mag blijven of niet. ")
+                                print("A = je bent blij dat je mag blijven [6] ")
+                                print("B = je word na een tijdje boos omdat je niet zeker weet of je familie ook naar Romania mag komen [11] ")
+                                schulden = input("type A or B: ")
+
+                                if schulden == "A" or schulden == "a":
+                                    print("Na een paar maanden krijg je te horen dat je bent toegelaten en je wordt geholpen om je aan te passen zoals,")
+                                    print("de taal leren in een speciale klas met meer vluchtelingen en er wordt geholpen om je aan een baan te krijgen.")
+                                    print("Er word ook geholpen om je familie te halen. ")
+
+                                elif schulden == "B" or schulden == "b":
+                                    print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                            elif work == "B" or work == "b":
+                                print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+            elif vluchteling == "B" or vluchteling == "b":
+                print("Je bent bij een groot bos aangekomen waar je doorheen moet om in Romania te komen ")
+                print("A = je gaat erdoorheen [13]")  
+                print("B = je besluit een vliegticket te kopen [19] ")
+                forest = input("type A or B: ")
+
+                if forest == "A" or forest == "a":
+                    print("Je zit nu een tijd zonder eten en hebt geen energie meer om door te gaan en verhongert. ")
+
+                elif forest == "B" or forest == "b":
+                    print("Je bent aangekomen in Romania je mag er voorlopig blijven maar je wordt niet verder geholpen.")
+                    print("Tot het zeker is dat je mag blijven. ")
+                    print("A = je vindt illegaal werk om te doen [11] ")
+                    print("B = je besluit om verder te zoeken naar legaal werk [20] ")
+                    temporary = input("type A or B: ")
+
+                    if temporary == "A" or temporary == "a":
+                        print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                    elif temporary == "B" or temporary == "B":
+                        print("Je vindt na een lange tijd werk. Je hebt geld geleend van mensen waarmee je bevriend bent geworden.") 
+                        print("A = je betaalt de mensen terug [21] ")
+                        print("B = je betaalt de mensen niet terug en zoekt een andere plek dichter bij je werk om te wonen [11] ")
+                        friend = input("type A or B: ")
+
+                        if friend == "A" or friend == "a":
+                            print("Je bent langzaam je schulden aan het wegwerken en je vriendschap wordt beter.")
+                            print("Je krijgt de uitslag te horen of je mag blijven of niet. ")
+                            print("A = je bent blij dat je mag blijven [6] ")
+                            print("B = je word na een tijdje boos omdat je niet zeker weet of je familie ook naar Romania mag komen [11] ")
+                            debt = input("type A or B: ")
+
+                            if debt == "A" or debt == "a":
+                                print("Na een paar maanden krijg je te horen dat je bent toegelaten en je wordt geholpen om je aan te passen zoals,")
+                                print("de taal leren in een speciale klas met meer vluchtelingen en er wordt geholpen om je aan een baan te krijgen.")
+                                print("Er word ook geholpen om je familie te halen. ")
+
+                            elif debt == "B" or debt == "b":
+                                print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+                            
+                        elif friend == "B" or "b":
+                            print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+    elif oke == "B" or oke == "b":
+        print("Je bent aangekomen in Bulgarije en daar krijg je te horen dat je niet kan blijven dat je weer verder moet vluchten.") 
+        print("A = je vlucht verder naar Romania. [17] ")
+        print("B = je blijft illegaal in Bulgarije omdat je niet meer door kan vluchten. [9] ")
+        bulgarije = input("type A or B: ")
+
+        if bulgarije == "A" or bulgarije == "a":
+            print("Je bent aan het voor bereiden om naar Romania te gaan.") 
+            print("A = je koopt een vliegticket van je laatste beetje geld en hoopt dat je daar kan werken. [19] ")
+            print("B = je gaat te voet en bespaart geld. [18] ")
+            voorbereiding = input("type A or B: ")
+
+            if voorbereiding == "A" or voorbereiding == "a":
+                print("Je bent aangekomen in Romania je mag er voorlopig blijven maar je wordt niet verder geholpen.")
+                print("Tot het zeker is dat je mag blijven. ")
+                print("A = je vindt illegaal werk om te doen [11] ")
+                print("B = je besluit om verder te zoeken naar legaal werk [20] ")
+                notsure = input("type A or B: ")
+
+                if notsure == "A" or notsure == "a":
+                    print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                elif notsure == "B" or notsure == "b":
+                    print("Je vindt na een lange tijd werk. Je hebt geld geleend van mensen waarmee je bevriend bent geworden.") 
+                    print("A = je betaalt de mensen terug [21]") 
+                    print("B = je betaalt de mensen niet terug en zoekt een andere plek dichter bij je werk om te wonen [11] ")
+                    job = input("type A or B: ")
+
+                    if job == "A" or job == "a":
+                        print("Je bent langzaam je schulden aan het wegwerken en je vriendschap wordt beter.")
+                        print("Je krijgt de uitslag te horen of je mag blijven of niet. ")
+                        print("A = je bent blij dat je mag blijven [6] ")
+                        print("B = je word na een tijdje boos omdat je niet zeker weet of je familie ook naar Romania mag komen [11] ")
+                        slow = input("type A or B: ")
+
+                        if slow == "A" or slow == "a":
+                            print("Na een paar maanden krijg je te horen dat je bent toegelaten en je wordt geholpen om je aan te passen zoals,")
+                            print("de taal leren in een speciale klas met meer vluchtelingen en er wordt geholpen om je aan een baan te krijgen.")
+                            print("Er word ook geholpen om je familie te halen. ")
+
+                        elif slow == "B"  or slow == "b":
+                            print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                    elif job == "B" or job == "b":
+                        print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+            elif voorbereiding == "B" or voorbereiding == "b":
+                print("Je bent bij een groot bos aangekomen waar je doorheen moet om in Romania te komen") 
+                print("A = je gaat erdoorheen [13] ")
+                print("B = je besluit een vliegticket te kopen [19] ")
+                bos = input("type A or B: ")
+
+                if bos == "A" or bos == "a":
+                    print("Je zit nu een tijd zonder eten en hebt geen energie meer om door te gaan en verhongert. ")
+
+                elif bos == "B" or bos == "b":
+                    print("Je bent aangekomen in Romania je mag er voorlopig blijven maar je wordt niet verder geholpen.")
+                    print("Tot het zeker is dat je mag blijven. ")
+                    print("A = je vindt illegaal werk om te doen [11] ")
+                    print("B = je besluit om verder te zoeken naar legaal werk [20] ")
+                    arrived = input("type A or B: ")
+
+                    if arrived == "A" or arrived == "a":
+                        print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+                    
+                    elif arrived == "B" or arrived == "b":
+                        print("Je vindt na een lange tijd werk. Je hebt geld geleend van mensen waarmee je bevriend bent geworden.") 
+                        print("A = je betaalt de mensen terug [21]") 
+                        print("B = je betaalt de mensen niet terug en zoekt een andere plek dichter bij je werk om te wonen [11] ")
+                        awhile = input("type A or B: ")
+
+                        if awhile == "A" or awhile == "a":
+                            print("Je bent langzaam je schulden aan het wegwerken en je vriendschap wordt beter.")
+                            print("Je krijgt de uitslag te horen of je mag blijven of niet. ")
+                            print("A = je bent blij dat je mag blijven [6] ")
+                            print("B = je word na een tijdje boos omdat je niet zeker weet of je familie ook naar Romania mag komen [11] ")
+                            slowly = input("type A or B: ")
+
+                            if slowly == "A" or slowly == "a":
+                                print("Na een paar maanden krijg je te horen dat je bent toegelaten en je wordt geholpen om je aan te passen zoals,")
+                                print("de taal leren in een speciale klas met meer vluchtelingen en er wordt geholpen om je aan een baan te krijgen.")
+                                print("Er word ook geholpen om je familie te halen. ")
+                            
+                            elif slowly == "B" or slowly == "b":
+                                print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+                        elif awhile == "B" or awhile == "b":
+                            print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+        elif bulgarije == "B" or bulgarije == "b":
+            print("Het is je gelukt om een plek te vinden waar je illegaal kan blijven,")
+            print("maar je zit zonder eten en moet ergens geld omzetten naar euro’s. ")
+            print("A = je gaat je geld omzetten. [11] ")
+            print("B = je probeert ergens geld vandaan te halen. [10] ")
+            didit = input("type A or B: ")
+
+            if didit == "A" or didit == "a":
+                print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+
+            elif didit == "B" or didit == "b":
+                print("Je hebt van betrouwbare mensen gehoord dat er een bedrijf is waar je kan werken zonder dat je wordt opgemerkt door de politie")
+                print("en je krijgt je loon contant. ")
+                print("A = je neemt de baan. [12] ")
+                print("B = je besluit de baan niet te nemen omdat je hebt gehoord dat de politie vaak langs die regio rijdt. [11] ")
+                trust = input("type A or B: ")
+
+                if trust == "A" or trust == "a":
+                    print("Je werkt er nu al een maand en het is eindelijk tijd voor je loon.")
+                    print("Je komt erachter dat de werkgever je loon niet wilt betalen ")
+                    print("A = je neemt ontslag [11] ")
+                    print("B = je besluit gewoon door te werken en hopen dat je volgende maand betaald krijgt. [13] ")
+                    month = input("type A or B: ")
+
+                    if month == "A" or month == "a":
+                        print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
+                    
+                    elif month == "B" or month == "b":
+                        print("Je zit nu een tijd zonder eten en hebt geen energie meer om door te gaan en verhongert. ")
+
+                elif trust == "B" or trust == "b":
+                    print("Je wordt opgepakt door de politie en in de gevangenis gestopt. ")
